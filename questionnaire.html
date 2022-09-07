@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey</title>
+	</head>
+	<link rel="stylesheet" href="styles/matrixStyle.css">
+	<body style="background-color:#FFFFD5;">
+
+		<h1>Questionnaire</h1>
+
+<!-- FORM -->
+<!-- Multiple Radios -->
+<div class="control-group">
+  <label class="control-label" for="multipleradios-0">Are you a Mobile Home resident or Manager / Owner?</label>
+  <div class="controls">
+    <label class="radio" for="multipleradios-0-0">
+      <input type="radio" name="multipleradios-0" id="multipleradios-0-0" value="Option one" checked="checked">
+     Resident
+    </label>
+    <label class="radio" for="multipleradios-0-1">
+      <input type="radio" name="multipleradios-0" id="multipleradios-0-1" value="Option two">
+      Manager / Owner
+    </label>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="singlebutton-0"></label>
+  <div class="controls">
+    <button id="singlebutton-0" name="singlebutton-0" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+	<script>
+	document.getElementById("singlebutton-0").onclick = function() {
+			var test = document.getElementById("multipleradios-0-0").checked;
+			if(test == true) {
+				// Resident
+				location.href = 'matrix-resident.html';
+			} else {
+				// Manager
+				location.href = 'matrix-manager.html';
+			}
+		};
+	</script>
+
+	</body>
+</html>
