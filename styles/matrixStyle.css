@@ -1,10 +1,24 @@
+html, body {
+	background: #fff4e6;
+}
+
 .control-group {
   	text-align: center;
 	border: 1;
-	background: antiquewhite;
+	color: #4b3832;
+	font-family: 'Courier New', monospace;
+	color: #854442;
 }
 
 h1 {
-	background: antiquewhite;
+	color: #4b3832;
+	font-family: 'Courier New', monospace;
+	font-weight: Bold;
+	font-size: 50px;
 	text-align: center;
+}
+
+.checkbox {
+	padding-right: 450px;
+	padding-left: 450px;
 }
