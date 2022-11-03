@@ -16,10 +16,40 @@ html, body{
 
 .links {
 	text-align: right;
+	padding-top:20px;
+	padding-right:15px;
 }
 
+#button1 {
+	  background-color: #4b3832;
+	  color: #fff4e6;
+	  padding: 15px 25px;
+	  text-decoration: none;
+}
+
+#button1:hover {
+	background-color: #3c2f2f;
+}
+
+#button2:hover {
+	background-color: #3c2f2f;
+}
+
+#button2 {
+	  background-color: #4b3832;
+	  color: #fff4e6;
+	  padding: 15px 25px;
+	  text-decoration: none;
+}
 h1 {
 	text-align: center;
+}
+
+.img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 
 .title {
@@ -35,10 +65,10 @@ h1 {
 }
 
 .main {
-	text-align: left;
+	text-align: center;
 	font-family: 'Courier New', monospace;
 	padding-top: 20px;
-	padding-right: 850px;
+	padding-right: 150px;
 	padding-bottom: 50px;
 	padding-left: 150px;
 	font-size:20px;
