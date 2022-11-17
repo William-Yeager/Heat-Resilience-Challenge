@@ -317,6 +317,6 @@ document.getElementById("singlebutton-0").onclick = function() {
     }
     
 
-    alert(bestSolution);
-    window.location.reload();
+    sessionStorage.setItem("bestSolution", bestSolution);
+    window.open("solutions.html", "_self")
 };
